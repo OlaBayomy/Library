@@ -1,0 +1,118 @@
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding-top: 50px;
+    width: 25%;
+    height: 400px;
+}
+
+.container input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="button"] {
+    border: none;
+    height: 40px;
+
+    font-size: 16px;
+
+
+}
+
+.container input {
+    border-radius: 8px;
+    width: 80%;
+    margin-bottom: 25px;
+    padding-left: 7px;
+}
+
+.container h4 input {
+    width: auto;
+}
+
+.add {
+    width: 170px;
+    background-color: rgb(182, 46, 46);
+    font-weight: 700;
+}
+
+.add:hover {
+    opacity: 80%;
+    transition: opacity 500ms ease;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    height: 37px;
+    width: 150px;
+    font-weight: 400;
+    padding-top: 13px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+
+header {
+    background-color: rgb(238, 234, 234);
+    height: 90px;
+    border-left: solid 10px black;
+    margin-bottom: 12px;
+}
+
+.div {
+    border: none;
+    background-color: rgb(238, 234, 234);
+    border-radius: 8px;
+}
+
+.book {
+    font-size: 18px;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 40px;
+
+}
+
+.book input {
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.book input:hover {
+    opacity: 70%;
+    transition: opacity 500ms ease;
+
+}
+
+#remove {
+    background-color: rgb(238, 234, 234);
+}
+
+#remove:hover {
+    background-color: rgb(219, 49, 49);
+    opacity: 100%;
+    transition: 500ms ease;
+
+}
+
+#booksList {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 40px;
+}

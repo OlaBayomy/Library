@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<htmll>
+
+    <head>
+        <title>Library</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>library</h1>
+        </header>
+        <div style="display: flex;">
+            <h3 style="margin-left: 17px;">Add a book</h3>
+            <h3 style="margin-left: 215px;">Books list</h3>
+        </div>
+        <div style="display:flex ;justify-content: space-around;flex-wrap: wrap;">
+            <div class="container div">
+                <p id="message" style="color: red;"></p>
+                <input type="text" id="title" placeholder="Title"><br />
+                <input type="text" id="authorName" placeholder="Author"><br />
+                <input type="number" id="pages" placeholder="Pages">
+                <h4>Have you read it? <input type="checkbox" id="r" name="read" /> </h4>
+                <input type="button" onclick="addBook()" class="add" id="add" value="ADD">
+            </div>
+            <div class="div" id="booksList">
+
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+
+    </html>
